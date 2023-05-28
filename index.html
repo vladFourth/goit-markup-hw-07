@@ -60,6 +60,25 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="32"
+            height="32"
+            fill="#2E2F42"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -71,7 +90,7 @@
           </button>
         </div>
       </section>
-      <section class="section-two">
+      <!-- <section class="section-two">
         <div class="container">
           <h2 class="hidden-header section-title-two" hidden>features</h2>
           <ul class="section-two-position list">
@@ -129,8 +148,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-three">
+      </section> -->
+      <!-- <section class="section-three">
         <div class="container">
           <h2 class="section-title section-position-title section-title-three">
             What are we doing
@@ -162,8 +181,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-four">
+      </section> -->
+      <!-- <section class="section-four">
         <div class="container">
           <h2 class="section-title section-position-title section-title-four">
             Our Team
@@ -323,56 +342,56 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-five">
+      </section> -->
+      <!-- <section class="section-five">
         <div class="container">
           <h2 class="section-five-title">Customers</h2>
           <ul class="list section-five-icons-position">
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo1"></use>
                 </svg>
               </a>
             </li>
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo2"></use>
                 </svg>
               </a>
             </li>
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo3"></use>
                 </svg>
               </a>
             </li>
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo4"></use>
                 </svg>
               </a>
             </li>
             <li class="section-five-icons">
               <a class="section-five-icons-link" href="">
-                <svg class="section-five-icon" width="104" height="56">
+                <svg class="section-five-icon" width="190" height="88">
                   <use href="./images/icons.svg#icon-Logo5"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="site-footer">
       <div class="footer-position container">
@@ -517,7 +536,77 @@
         </div>
       </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
 
+      <ul class="mobile-menu list">
+        <li><a href="./index.html" class="link">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+
+      <ul class="address-position list mobile-contacts">
+            <li class="link mobile-contacts-position">
+              <a class="link address-item mobile-address-phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="link">
+              <a class="link address-item mobile-address-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+      <ul class="mobile-social list footer-social-media-link ">
+            <li class="footer-social-icons">
+              <a class="footer-social-icons-link" href="">
+                <svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-icons-link" href=""
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-icons-link" href=""
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-icons-link" href=""
+                ><svg class="footer-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
