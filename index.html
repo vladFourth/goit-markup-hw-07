@@ -82,7 +82,7 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero hero-position">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button" data-modal-open>
@@ -157,6 +157,7 @@
           <ul class="section-three-list list">
             <li class="section-three-list-item">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img1-x2.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Computer"
                 width="360"
@@ -165,6 +166,7 @@
             </li>
             <li class="section-three-list-item">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img2-x2.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Application"
                 width="360"
@@ -173,6 +175,7 @@
             </li>
             <li class="section-three-list-item">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3-x2.jpg 2x"
                 src="./images/img3.jpg"
                 alt="Smartphone"
                 width="360"
@@ -557,8 +560,12 @@
       </div>
     </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
+      <button class="menu-toggle menu-toggle-close js-close-menu">
+        <svg class="modal-window-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+
+        <!-- <svg
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -570,7 +577,7 @@
             d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
             clip-rule="evenodd"
           ></path>
-        </svg>
+        </svg> -->
       </button>
 
       <ul class="mobile-menu list">
@@ -580,7 +587,9 @@
         <li>
           <a href="./portfolio.html" class="mobile-menu-link">Portfolio</a>
         </li>
-        <li><a href="" class="mobile-menu-link">Contacts</a></li>
+        <li>
+          <a href="" class="mobile-menu-link mobile-menu-link-not">Contacts</a>
+        </li>
       </ul>
 
       <ul class="address-position list mobile-contacts active">
